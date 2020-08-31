@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vlog</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <section>
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">Navbar</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Aboout us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+    <section>
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./images/georgie-cobbs-muOHbrFGEQY-unsplash.jpg"
+              height="600"
+              width="100%"
+              alt="Los Angeles"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/jesus-kiteque-wn-KYaHwcis-unsplash.jpg"
+              height="600"
+              width="100%"
+              alt="Chicago"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/joanna-kosinska-1_CMoFsPfso-unsplash.jpg"
+              height="600"
+              width="100%"
+              alt="New York"
+            />
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+    <!-- About us  -->
+    <section>
+      <div class="container-fluid">
+        <h1 class="text-center text-capitalize pt-5 mb-5">About us</h1>
+        <hr class="w-25 mx-auto pt-5" />
+
+        <div class="row mb-5">
+          <div class="col-lg-6 col-md-6 col-12">
+            <img
+              src="./images/georgie-cobbs-muOHbrFGEQY-unsplash.jpg"
+              class="img-fluid"
+              style="height: 250px; width: 100%"
+            />
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <h1>Who am i</h1>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+              inventore odit aut deserunt illo? Quis voluptates ducimus at
+              inventore dignissimos fuga ab, molestiae dolorum cum minus eum.
+              Asperiores, facere sunt. Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Voluptatem, modi dicta libero quas iusto ipsa
+              illo omnis, commodi distinctio suscipit natus, ipsum itaque iste
+              numquam blanditiis voluptate voluptates expedita! Eos!
+            </p>
+            <button class="btn bg-primary text-white">wanna know me</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end of about us -->
+    <!-- service part -->
+    <section>
+      <div class="container">
+        <h1 class="text-center text-capitalize pt-5 mb-5">Services</h1>
+        <hr class="w-25 mx-auto pt-5" />
+
+        <div class="row text-center mb-5">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card" style="width: 300px">
+              <img
+                class="card-img-top"
+                src="https://png.pngitem.com/pimgs/s/53-533248_cartoon-person-without-face-person-cartoon-hd-png.png"
+                alt="Card image"
+                style="width: 100%"
+              />
+              <div class="card-body">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">
+                  Some example text some example text. John Doe is an architect
+                  and engineer
+                </p>
+                <a href="#" class="btn btn-primary stretched-link"
+                  >See Profile</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card" style="width: 300px">
+              <img
+                class="card-img-top"
+                src="https://png.pngitem.com/pimgs/s/53-533248_cartoon-person-without-face-person-cartoon-hd-png.png"
+                alt="Card image"
+                style="width: 100%"
+              />
+              <div class="card-body">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">
+                  Some example text some example text. John Doe is an architect
+                  and engineer
+                </p>
+                <a href="#" class="btn btn-primary stretched-link"
+                  >See Profile</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card" style="width: 300px">
+              <img
+                class="card-img-top"
+                src="https://png.pngitem.com/pimgs/s/53-533248_cartoon-person-without-face-person-cartoon-hd-png.png"
+                alt="Card image"
+                style="width: 100%"
+              />
+              <div class="card-body">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">
+                  Some example text some example text. John Doe is an architect
+                  and engineer
+                </p>
+                <a href="#" class="btn btn-primary stretched-link"
+                  >See Profile</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- service end  -->
+
+    <!-- contact demo  -->
+    <section class="bg-primary text-white">
+      <article class="py-5 text-center">
+        <div>
+          <h3 class="display-4">+91 9989878654</h3>
+          <p>if you want service then call us</p>
+          <button class="btn btn-warning">contact now</button>
+        </div>
+      </article>
+    </section>
+
+    <!-- contact demo end  -->
+
+    <!-- gallery start  -->
+    <section>
+      <div class="container">
+        <h1 class="text-center text-capitalize pt-5 mb-5">gallery</h1>
+        <hr class="w-25 mx-auto pt-5" />
+        
+        <div class="row">
+          <div class="col-lg-4 col-md-2 col-sm-12 mb-4">
+            <img src="./images/georgie-cobbs-muOHbrFGEQY-unsplash.jpg" alt="" class="img-fluid" style="height: 200px; width: 200px;">
+          </div>
+
+          <div class="col-lg-4 col-md-2 col-sm-12 mb-4">
+            <img src="./images/georgie-cobbs-muOHbrFGEQY-unsplash.jpg" alt="" class="img-fluid" style="height: 200px; width: 200px;">
+          </div>
+
+          <div class="col-lg-4 col-md-2 col-sm-12 mb-4">
+            <img src="./images/georgie-cobbs-muOHbrFGEQY-unsplash.jpg" alt="" class="img-fluid" style="height: 200px; width: 200px;">
+          </div>
+
+          <div class="col-lg-4 col-md-2 col-sm-12 mb-4">
+            <img src="./images/georgie-cobbs-muOHbrFGEQY-unsplash.jpg" alt="" class="img-fluid" style="height: 200px; width: 200px;">
+          </div>
+
+          <div class="col-lg-4 col-md-2 col-sm-12 mb-4">
+            <img src="./images/georgie-cobbs-muOHbrFGEQY-unsplash.jpg" alt="" class="img-fluid" style="height: 200px; width: 200px;">
+          </div>
+
+          <div class="col-lg-4 col-md-2 col-sm-12 mb-4">
+            <img src="./images/georgie-cobbs-muOHbrFGEQY-unsplash.jpg" alt="" class="img-fluid" style="height: 200px; width: 200px;">
+          </div>
+
+          <div class="col-lg-4 col-md-2 col-sm-12 mb-4">
+            <img src="./images/georgie-cobbs-muOHbrFGEQY-unsplash.jpg" alt="" class="img-fluid" style="height: 200px; width: 200px;">
+          </div>
+
+          <div class="col-lg-4 col-md-2 col-sm-12 mb-4">
+            <img src="./images/georgie-cobbs-muOHbrFGEQY-unsplash.jpg" alt="" class="img-fluid" style="height: 200px; width: 200px;">
+          </div>
+
+          <div class="col-lg-4 col-md-2 col-sm-12 mb-4">
+            <img src="./images/georgie-cobbs-muOHbrFGEQY-unsplash.jpg" alt="" class="img-fluid" style="height: 200px; width: 200px;">
+          </div>
+
+          
+        </div>
+    </section>
+
+    <!-- gallery end  -->
+
+    <!-- registration form -->
+    <section class="bg-primary ">
+      <article class="py-5 ">
+        <div class="text-center">
+          <h3 class="display-4 text-white">Want To Join</h3>
+          <p class="text-white">Be a part of Technical site</p>
+          <button class="btn btn-warning" data-toggle="modal" data-target="#myModal">Join Now</button>
+        </div>
+      </article>
+
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">SignUp</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+              <form action="/action_page.php">
+                <div class="form-group">
+                  <label for="email">Email address:</label>
+                  <input type="email" class="form-control" placeholder="Enter email" id="email" autocomplete="off">
+                </div>
+                <div class="form-group">
+                  <label for="pwd">Password:</label>
+                  <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+                </div>
+                <div class="form-group form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> Remember me
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form> 
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary bg-danger" data-dismiss="modal">Close</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- registration end  -->
+    <!-- contact us start  -->
+    <section>
+      <div class="container mb-5">
+        <h1 class="text-center text-capitalize pt-5 mb-5">gallery</h1>
+        <hr class="w-25 mx-auto pt-5" />
+
+        <div class="w-50 mx-auto">
+          <form action="/action_page.php">
+            <div class="form-group">
+              <label for="email">Your name</label>
+              <input type="email" class="form-control" placeholder="Enter email" id="email" autocomplete="off">
+            </div>
+            <div class="form-group">
+              <label for="pwd">Email</label>
+              <input type="email" class="form-control" placeholder="Enter email" id="pwd">
+            </div>
+
+            <div class="form-group">
+              <label for="pwd">Phone</label>
+              <input type="number" class="form-control" placeholder="Enter Phone" id="pwd">
+            </div>
+            <div class="form-group">
+              <label for="textarea">Message</label>
+              <textarea class="form-control"></textarea>
+
+            </div>
+            
+            <div class="form-group form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox"> Remember me
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form> 
+        </div>
+      </div>
+    </section>
+    <!-- footer  -->
+    <footer>
+      <p class="text-center bg-dark text-white">&copy; copyright suraj tiwari 2020</p>
+    </footer>
+  </body>
+</html>
